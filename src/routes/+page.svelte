@@ -8,7 +8,7 @@
   onMount(async () => {
     try {
       // This is your Command Center talking to your Bunker
-      const response = await fetch('https://271triliun.xyz/api/get_whale_data.php'); // <-- REPLACE THIS URL
+      const response = await fetch('https://bunker.271triliun.xyz/api/intel_v1php'); // <-- REPLACE THIS URL
       if (!response.ok) {
         throw new Error(`Bunker Network Error: ${response.status}`);
       }
